@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <section class="header">
+        <div class="logo">
+            <i class="ri-menu-line icon icon-0 menu"></i>
+            <h2>J<span>PLUS</span></h2>
+        </div>
+
+
+            
+        </div>
+    </section>
+
+    <!-- MENU  -->
+    <section class="main">
+        <div class="sidebar">
+            <ul class="sidebar--items">
+                <li>
+                    <a href="dashboard.html" >
+                        <span class="icon icon-1"><i class="ri-layout-grid-line"></i></span>
+                        <span class="sidebar--item">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Appoinments.html">
+                        <span class="icon icon-2"><i class="ri-calendar-2-line"></i></span>
+                        <span class="sidebar--item">Appoinments</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="doctor.html" id="active--link">
+                        <span class="icon icon-3"><i class="ri-user-2-line"></i></span>
+                        <span class="sidebar--item" style="white-space: nowrap;">Doctors</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="patients.html">
+                        <span class="icon icon-4"><i class="ri-user-line"></i></span>
+                        <span class="sidebar--item">Patients</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="patientssts.html">
+                        <span class="icon icon-5"><i class="ri-line-chart-line"></i></span>
+                        <span class="sidebar--item">Patients Status</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="echannelling.html">
+                        <span class="icon icon-6"><i class="ri-customer-service-line"></i></span>
+                        <span class="sidebar--item">E-Channelling</span>
+                    </a>
+                </li>
+            </ul>
+
+
+            <!-- sidebar menu -->
+            <ul class="sidebar--bottom-items">
+                <li>
+                    <a href="#">
+                        <span class="icon icon-7"><i class="ri-settings-3-line"></i></span>
+                        <span class="sidebar--item">Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon icon-8"><i class="ri-logout-box-r-line"></i></span>
+                        <span class="sidebar--item">Logout</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+
+        <!-- main Contents -->
+        <div class="main--content">
+            
+
+
+
+
+
+            <!-- Doctors -->
+
+
+
+            <!-- doctors head -->
+            <div class="doctors">
+                <div class="title">
+                    <h2 class="section--title">Doctors</h2>
+                    <div class="doctors--right--btns">
+                        <select name="date" id="date" class="dropdown doctor--filter">
+                            <option >Filter</option>
+                            <option value="free">Free</option>
+                            <option value="scheduled">Scheduled</option>
+                        </select>
+                        <button class="add"><i class="ri-add-line"></i>Add Doctor</button>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <!-- doctors details -->
+                <div class="doctors--cards">
+                    <a href="#" class="doctor--card">
+                        <div class="img--box--cover">
+                            <div class="img--box">
+                                <img src="assets/images/doctor1.jpg" alt="">
+                            </div>
+                        </div>
+                        <h3>Dr. Amara</h3>
+                        <p class="free">Free</p>
+                    </a>
+
+                    <a href="#" class="doctor--card">
+                        <div class="img--box--cover">
+                            <div class="img--box">
+                                <img src="assets/images/doctor2.jpg" alt="">
+                            </div>
+                        </div>
+                        <h3>Dr. Nirmala</h3>
+                        <p class="scheduled">Scheduled</p>
+                    </a>
+                    
+                    
+                    
+                </div>
+            </div>
+
+
+
+            
+        </div>
+    </section>
+
+
+
+
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
